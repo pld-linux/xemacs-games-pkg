@@ -2,7 +2,7 @@ Summary:	Tetris, Sokoban, and Snake
 Summary(pl):	Tetris, Sokoban, and Snake
 Name:		xemacs-games-pkg
 %define 	srcname	games
-Version:	1.11
+Version:	1.12
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs

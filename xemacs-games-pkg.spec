@@ -1,5 +1,5 @@
-Summary:	Tetris, Sokoban, and Snake
-Summary(pl):	Tetris, Sokoban, and Snake
+Summary:	Tetris, Sokoban and Snake
+Summary(pl):	Tetris, Sokoban i Snake
 Name:		xemacs-games-pkg
 %define 	srcname	games
 Version:	1.12
@@ -16,8 +16,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Tetris, Sokoban, and Snake for xemacs.
 
 %description -l pl 
+Tetris, Sokoban i Snake dla xemacsa.
 
 %prep
 %setup -q -c
@@ -35,7 +37,7 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/games/ChangeLog.gz 
+%doc lisp/games/*.gz 
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc

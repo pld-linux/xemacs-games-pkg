@@ -2,12 +2,12 @@ Summary:	Tetris, Sokoban and Snake
 Summary(pl):	Tetris, Sokoban i Snake
 Name:		xemacs-games-pkg
 %define 	srcname	games
-Version:	1.13
+Version:	1.15
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	4138cc59fd6a9316adbb14e7468af593
+# Source0-md5:	e50c1cd9ae0e9d32a022f52e795119b4
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo

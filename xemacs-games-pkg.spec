@@ -1,5 +1,5 @@
 Summary:	Tetris, Sokoban and Snake
-Summary(pl):	Tetris, Sokoban i Snake
+Summary(pl.UTF-8):   Tetris, Sokoban i Snake
 Name:		xemacs-games-pkg
 %define 	srcname	games
 Version:	1.15
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Tetris, Sokoban, and Snake for xemacs.
 
-%description -l pl
+%description -l pl.UTF-8
 Tetris, Sokoban i Snake dla xemacsa.
 
 %prep
